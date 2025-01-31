@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "dylan": "./index.js"
+    "dylan": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,8 @@
   "author": "Dylan Morales <G00313284@stu.raritanval.edu> (https://github.com/DylanMMorales)",
   "license": "MIT",
   "description": "",
-   "repository": "https://github.com/DylanMMorales/dylan.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanMMorales/dylan.git"
+  }
 }
