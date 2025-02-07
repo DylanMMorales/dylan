@@ -5,9 +5,10 @@
   "bin": {
     "dylan": "index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "test": "echo \"error: no test specified\" && exit 1",
+  "lint": "eslint **/*.js"
+},
   "keywords": [],
   "author": "Dylan Morales <G00313284@stu.raritanval.edu> (https://github.com/DylanMMorales)",
   "license": "MIT",
@@ -15,5 +16,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DylanMMorales/dylan.git"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0"
   }
 }
