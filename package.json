@@ -1,14 +1,14 @@
 {
   "name": "dylan-morales",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "bin": {
     "dylan": "index.js"
   },
- "scripts": {
-  "test": "echo \"error: no test specified\" && exit 1",
-  "lint": "eslint **/*.js"
-},
+  "scripts": {
+    "test": "echo \"error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js"
+  },
   "keywords": [],
   "author": "Dylan Morales <G00313284@stu.raritanval.edu> (https://github.com/DylanMMorales)",
   "license": "MIT",
